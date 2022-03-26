@@ -1,0 +1,68 @@
+body{
+  background-image: linear-gradient(to bottom,#f3bc07dc, #f7a204af,#ff6905e8,#ff6905e8,#f3bc07dc, #f7a204af);
+  background-attachment: fixed;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+main{
+  background-color:#f0f8ff5b;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: azure;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 1px #000000af;
+  width: 500px;
+  height: 705px;
+  margin: auto;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  padding:10px;
+}
+
+
+main > a{
+  text-decoration: none;
+  color: red;
+  text-shadow: 1px 1px 1px #000000af;
+  margin-left: 100px;
+}
+
+.container > header{
+  height: 156px;
+  padding: 10px;
+  max-width: 1000vw;
+  min-width: none;
+  background-color: #000000;
+  color: #ff7b00e5;
+  text-align: center;
+  font-size: 30px;
+}
+
+h1{
+  background-attachment: fixed;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 1px;
+}
+
+
+
+p.footer1{
+  margin: auto;
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+}
+
+p.footer1 > a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+p.footer1 > a:hover{
+  color: #6e6c6ccb;
+  transition: 0.5s;
+}
